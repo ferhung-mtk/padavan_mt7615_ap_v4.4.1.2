@@ -1,4 +1,3 @@
-#ifdef MTK_LICENSE
 /*
  ***************************************************************************
  * MediaTek Inc.
@@ -14,7 +13,7 @@
 	Module Name:
 	single_sku.h
 */
-#endif /* MTK_LICENSE */
+
 #ifndef __CMM_SINGLE_SKU_H__
 #define __CMM_SINGLE_SKU_H__
 

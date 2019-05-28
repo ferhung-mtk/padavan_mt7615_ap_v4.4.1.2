@@ -1,4 +1,3 @@
-#ifdef MTK_LICENSE
 /*
  ***************************************************************************
  * Ralink Tech Inc.
@@ -26,7 +25,7 @@
 	--------	----------		----------------------------------------------
 	Paul Wu		02-25-02		Initial
 */
-#endif /* MTK_LICENSE */
+
 #include	"rt_config.h"
 
 
@@ -775,7 +774,7 @@ VOID RTMPConstructCCMPNonce(
 	NdisMoveMemory(&nonce_hdr[n_offset], pHdr + 10, MAC_ADDR_LEN);
 	n_offset += MAC_ADDR_LEN;
 
-	/* Fill in the PN. The PN field occupies octets 7¡V12. 
+	/* Fill in the PN. The PN field occupies octets 7/12. 
 		The octets of PN shall be ordered so that PN0 is at octet index 12
 		and PN5 is at octet index 7. */
  	for (i = 0; i < 6; i++)

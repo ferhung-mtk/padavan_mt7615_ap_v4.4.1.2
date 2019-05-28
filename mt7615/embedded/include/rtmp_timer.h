@@ -28,7 +28,7 @@
 	Shiang Tu    Aug-28-2008	init version
 
 */
-#endif /* MTK_LICENSE */
+
 #ifndef __RTMP_TIMER_H__
 #define  __RTMP_TIMER_H__
 

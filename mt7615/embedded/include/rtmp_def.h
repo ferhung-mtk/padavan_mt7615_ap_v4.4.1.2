@@ -32,9 +32,6 @@
 #define __RTMP_DEF_H__
 
 #include "oid.h"
-#ifndef MTK_LICENSE
-#define MTK_LICENSE
-#endif /* MTK_LICENSE */
 
 #undef AP_WSC_INCLUDED
 #undef STA_WSC_INCLUDED
