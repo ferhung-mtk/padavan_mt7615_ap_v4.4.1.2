@@ -1,7 +1,3 @@
-config MT7615_AP
-	bool
-	default y
-
 config WIFI_DRIVER
 	bool
 	default y
