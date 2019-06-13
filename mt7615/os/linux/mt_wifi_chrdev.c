@@ -18,6 +18,7 @@
 #include <mach/mt_gpio.h>
 #include <cust_gpio_usage.h>
 
+
 #define WIFI_DRIVER_NAME "mtk_WIFI_chrdev"
 #define WIFI_NODE "wmtWifi"
 #define WLAN_IFACE_NAME "wlan0"
